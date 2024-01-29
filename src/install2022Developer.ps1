@@ -158,6 +158,3 @@ Start-Process -FilePath $ssmsInstallerPath -ArgumentList "/Install /Passive" -Wa
 
 # delete temp files
 "./Temp" | Send-ToRecycleBin
-
-echo "SQL Installation completed, press any key to exit"
-[Console]::ReadKey()
